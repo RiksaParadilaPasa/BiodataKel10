@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#282828"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#39E991">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="CoderShack."
+            app:titleTextColor="#fff">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="20dp"
+                        android:layout_margin="30dp"
+                        app:cardCornerRadius="20dp"
+                        android:background="#08282828">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/kadal"
+                            android:layout_marginTop="20dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Herlangga Kadal"
+                            android:textSize="30sp"
+                            android:textColor="#282828"
+                            android:layout_marginTop="270dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="XII RPL3"
+                            android:textSize="30sp"
+                            android:textColor="#282828"
+                            android:layout_marginTop="320dp"/>
+
+                        <Button
+                            android:id="@+id/btn_herlangga"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="400dp"
+                            android:layout_marginBottom="30dp"
+                            android:text="View"
+                            android:textColor="#fff"
+                            android:background="@drawable/background_button"/>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    android:layout_margin="30dp"
+                    app:cardCornerRadius="20dp"
+                    android:background="#08282828">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/jelek"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Rendra Tokek"
+                        android:textSize="30sp"
+                        android:textColor="#282828"
+                        android:layout_marginTop="270dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="XII RPL3"
+                        android:textSize="30sp"
+                        android:textColor="#282828"
+                        android:layout_marginTop="320dp"/>
+
+                    <Button
+                        android:id="@+id/btn_rendra"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="400dp"
+                        android:layout_marginBottom="30dp"
+                        android:text="View"
+                        android:textColor="#fff"
+                        android:background="@drawable/background_button"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    android:layout_margin="30dp"
+                    app:cardCornerRadius="20dp"
+                    android:background="#08282828">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pas_foto_riksa"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Riksa Paradila Pasa"
+                        android:textSize="30sp"
+                        android:textColor="#282828"
+                        android:layout_marginTop="270dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="XII RPL3"
+                        android:textSize="30sp"
+                        android:textColor="#282828"
+                        android:layout_marginTop="320dp"/>
+
+                    <Button
+                        android:id="@+id/btn_riksa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="400dp"
+                        android:layout_marginBottom="30dp"
+                        android:text="View"
+                        android:textColor="#fff"
+                        android:background="@drawable/background_button"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</LinearLayout>

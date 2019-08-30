@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/atas"
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            android:background="@drawable/stan"
+            android:orientation="vertical">
+
+            <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/foto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Herlangga"
+                android:textColor="#fff"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/ux"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ui/Ux Designer"
+                android:textColor="#fff"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HI I'm Herlangga,Ui/Ux Design,CEO of startup S-Implement and Pro Skateboarding from Bandung Indonesia"
+            android:layout_below="@+id/atas"
+            android:textSize="20dp"
+            />
+
+<androidx.cardview.widget.CardView
+    android:layout_below="@+id/textp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:layout_centerHorizontal="true"
+    android:background="#0000"
+    app:cardCornerRadius="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+   <ImageView
+       android:layout_width="30dp"
+       android:layout_height="30dp"
+       android:src="@drawable/envelope"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aherlangga01@gmail.com"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/house"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Addres:"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kopo Street Number 28"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/phone"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+6288222055440"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Tools:"
+    android:textSize="20dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="140dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:src="@drawable/figma"/>
+            <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/androidst"
+            />
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/xd" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ps"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
